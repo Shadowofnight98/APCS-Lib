@@ -13,9 +13,9 @@ public class MathUtil {
 	/**
 	 * Rounds the double <i>num</i> to the nearest multiple of <i>mult</i>.<br><br>
 	 * Examples:<br>
-	 *     2.4,1.0 > 2.0<br>
-	 *     2.4,3.0 > 3.0<br>
-	 *     4.5,3.0 > 6.0
+	 *     2.4,1.0 &gt; 2.0<br>
+	 *     2.4,3.0 &gt; 3.0<br>
+	 *     4.5,3.0 &gt; 6.0
 	 * @param num The number to round.
 	 * @param mult The multiple to compare to.
 	 * @return The rounded number.
@@ -48,8 +48,8 @@ public class MathUtil {
 	
 	/**
 	 * Gets the lowest common multiple between <i>x</i> and <i>y</i>.
-	 * @param x The first integer.
-	 * @param y The second integer.
+	 * @param a The first integer.
+	 * @param b The second integer.
 	 * @return The lowest common multiple.
 	 */
 	public static long getLCM(long a, long b){
